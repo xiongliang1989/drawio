@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-07-14T06:05:58.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" version="14.8.6" etag="NB54Xbk4OIP0PYkiWkxu" type="github"><diagram id="CJL4lRhTOnDr2qL4zJf5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-14T06:23:17.177Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="fKhP6fBg5OMxr0p6AuDr" version="14.8.6" type="github">
+  <diagram id="CJL4lRhTOnDr2qL4zJf5" name="Page-1">
+    <mxGraphModel dx="1046" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nfDlaUfBTqQgXuweLCC4-1" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="280" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nfDlaUfBTqQgXuweLCC4-4" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nfDlaUfBTqQgXuweLCC4-5" value="submit_time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="230" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nfDlaUfBTqQgXuweLCC4-7" value="current_submit_time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="240" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nfDlaUfBTqQgXuweLCC4-8" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="440" as="sourcePoint" />
+            <mxPoint x="760" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfDlaUfBTqQgXuweLCC4-9" value="time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="440" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nfDlaUfBTqQgXuweLCC4-11" value="要求&lt;br&gt;所有的基础数据表，数据insert的时候，update_time赋值为当前时间&lt;br&gt;&lt;br&gt;说明&lt;br&gt;情况1：submit_time为空，表示第一次上报，获取变更数据的时间条件为update_time&amp;lt;current_submit_time&lt;br&gt;情况2：submit_time不为空，表示第n次上报(n&amp;gt;=2)，获取变更数据的时间条件为submit_time=&amp;lt;update_time&amp;lt;current_submit_time" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="530" width="710" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nfDlaUfBTqQgXuweLCC4-12" value="&lt;span&gt;idc&lt;/span&gt;&lt;br&gt;&lt;div&gt;house&lt;/div&gt;&lt;div&gt;customer&lt;/div&gt;&lt;div&gt;app&lt;/div&gt;&lt;div&gt;domain&lt;/div&gt;&lt;div&gt;accupcy_house&lt;/div&gt;&lt;div&gt;frame&lt;/div&gt;&lt;div&gt;ip_segment&lt;/div&gt;&lt;div&gt;link&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="110" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
